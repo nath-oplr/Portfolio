@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo"><a href="#home">My Portfolio</a></h1>
+            <button class="hamburger" aria-label="Menu">☰</button>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Hobbies</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle">🌓</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Home Section-->
+        <section id="home" class="section">
+            <div class="hero">
+                <h2 class="cosmic-title">I'm Nathaniel C. Royong</h2>
+                <p class="bio">If you don't take risks, you can't create a future!</p>
+                <a href="#projects" class="cosmic-button">ABOUT ME</a>
+            </div>
+        </section>
+
+        <!--Projects Section-->
+        <section id="projects" class="section">
+            <h2>Hobbies</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                      <img src="https://i.ibb.co/p6KRfZyq/c10bce21-7c1a-4384-88e6-7899b4d58b28.jpg" alt="Volleyball" loading="lazy">
+                    </div>
+                    <h3>Volleyball</h3>
+                    <p>The thrill of spiking and diving with my teammates as a new varsity senior high player still gives me chills. We fought hard to clinch the municipal meet and cluster championship. Volleyball isn't just a game for me; it's where I found my joy and a family that cheers louder than any crowd.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                      <img src="https://i.ibb.co/21c3t8PF/72504c09-ff46-40f7-a719-b2300750c14a.jpg" alt="Codm at ML" loading="lazy">
+                    </div>
+                    <h3>Playing Online Games</h3>
+                    <p>The final moments of that CODM tournament were insane, my hands were shaking as we pulled off an epic comeback with my friends and family cheering me on. Winning the championship and snagging Finals MVP was unreal, but the best part was celebrating together like we'd just conquered the world.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://i.ibb.co/6R4hBRjN/e9e9f9b3-7a91-40ac-89fc-03ef95ca442e.jpg" alt="Watching Anime or Manga" loading="lazy">
+                    </div>
+                    <h3>Watching Anime</h3>
+                    <p>I absolutely love watching anime, especially "One Piece". Luffy's adventurous spirit and carefree personality always inspire me. I also enjoy reading manga and manhwa, with "Wind Breaker" being my favorite for its thrilling bike races and intense rivalries.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skill-bars">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required rows="5"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
